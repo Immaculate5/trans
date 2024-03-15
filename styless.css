@@ -53,7 +53,7 @@ header {
 .item a {
     text-decoration: none;
     margin: 10px;
-    color: #e0f2fe;
+    color: rgb(224, 242, 254);
     font-size: 14px;
     text-transform: capitalize;
 }
@@ -61,8 +61,8 @@ header {
 .hero-section {
     height: 85vh;
     background-image: linear-gradient(to right bottom,
-            rgba(30, 58, 138, 0.6),
-            rgba(30, 58, 138, 0.4)),
+            rgba(224, 242, 254, 0.4),
+            rgba(30, 58, 138, 0.2)),
         url(./Mombasa-Road-og_image.webp);
     background-size: cover;
     background-position: top;
@@ -77,21 +77,22 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
 }
 
 .hero-content h1 {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
     color: #020617;
     text-transform: uppercase;
 }
 
 .hero-content p {
     align-self: center;
-    color: #e0f2fe;
+    color: #020617;
     max-width: 60ch;
     text-align: center;
+    font-size: 16px;
 }
 
 .hero-btn {
@@ -101,6 +102,14 @@ header {
 .hero-btn a {
     background-color: #1e3a8a;
     color: #e0f2fe;
+    font-size: 16px;
+    text-decoration: none;
+
+    transform: all .3s linear;
+}
+
+.hero-btn a:hover {
+    background-color: #020617;
 }
 
 main {
