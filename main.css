@@ -120,6 +120,51 @@ header {
     background-color: #020617;
 }
 
+
+/* footer */
+footer {
+    background-color: #1e3a8a;
+}
+
+
+.footer {
+    padding: 2rem 0 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #e0f2fe;
+
+    margin-bottom: 1rem;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a {
+    color: #e0f2fe;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+.footer a:hover {
+    color: #020617;
+}
+
+.footer hr {
+    border: 1px solid rgba(224, 242, 254, 0.3);
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
 main {
     display: flex;
     flex-direction: column;
