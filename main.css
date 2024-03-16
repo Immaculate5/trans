@@ -1,3 +1,5 @@
+@import url(./styles.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.section {
+    margin-top: 5rem;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -23,6 +29,7 @@ body {
     cursor: pointer;
 }
 
+/* header styles */
 header {
     background-color: #1e3a8a;
     color: #e0f2fe;
@@ -58,12 +65,13 @@ header {
     text-transform: capitalize;
 }
 
+/* hero section */
 .hero-section {
     height: 85vh;
     background-image: linear-gradient(to right bottom,
             rgba(224, 242, 254, 0.4),
             rgba(30, 58, 138, 0.2)),
-        url(./Mombasa-Road-og_image.webp);
+        url(./img/taxi.jpeg);
     background-size: cover;
     background-position: top;
 

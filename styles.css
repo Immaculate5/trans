@@ -1,11 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
+.form-container {
+  font-family: 'Lato', sans-serif;
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
